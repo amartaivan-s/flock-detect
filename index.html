@@ -22,6 +22,10 @@
     margin-top: 28px; color: var(--ink2);
     border-bottom: 2px solid var(--rule); padding-bottom: 6px;
   }
+  .gif-container {
+      text-align: center;
+      margin: 2em 0;
+  }
   ul { margin: 8px 0 0 20px; }
   a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
@@ -46,8 +50,6 @@
   Sequential deep learning for online detection of collective motion in crowds
 </p>
 
-<img src="main_flock.png" alt="Sample Flock Detection Results." class="hero">
-
 <h2 class="section-title">Overview</h2>
 <p>
 This project studies <strong>real-time flock detection</strong> in multi-pedestrian trajectories using
@@ -58,6 +60,11 @@ It follows a <strong>two‑stage pipeline</strong>:
 Validated on real‑world group movement datasets, the method is designed to be robust across
 varying sequence lengths, diverse motion patterns, and noisy environments.
 </p>
+
+  <div class="gif-container">
+    <img src="main_flock.png" alt="Method Overview Diagram" class="hero">
+    <p><small>Figure: Proposed method overview.</small></p>
+  </div>
 
 <div class="tile">
   <div>
